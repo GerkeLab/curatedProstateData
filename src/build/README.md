@@ -1,0 +1,1 @@
+This folder contains scripts used to build the `curatedProstateData` package.

@@ -1,0 +1,2 @@
+This folder hosts R files containing functions and data to be used globally throughout other helper scripts.
+Scripts outside of this folder should be able to source all of the files in this folder to ensure a consitent R environment and availability of all helper functions.

@@ -1,0 +1,1 @@
+This folder will contain scripts and source files for downloading and processing the curated data.

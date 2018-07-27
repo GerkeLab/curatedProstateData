@@ -1,0 +1,1 @@
+This folder contains general-purpose scripts that are used for project management and are ancillary to the import -> process -> publish pipeline.

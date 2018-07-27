@@ -1,0 +1,664 @@
+- source: GEO
+  label: GSE62116
+  title: Validation of a genomic classifier that predicts metastasis following radical
+    prostatectomy in at risk patient population
+  accession: GSE62116
+  year: 2014
+  pubmed_id:
+  - 23770138
+  - 26246306
+  - 26631616
+  doi: 10.1016/j.juro.2013.06.017
+  platform:
+  - accession: GPL5188
+    name: '[HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]'
+    manufacturer: Affymetrix
+    distribution: commercial
+    technology: in situ oligonucleotide
+  citation: |
+    Karnes RJ, Bergstralh EJ, Davicioni E, et al.  Validation of a genomic classifier that predicts metastasis following radical  prostatectomy in an at risk patient population.  J Urol. 2013;190(6):2047-53.
+  size:
+    'n': 235
+    comments: We generated 22-marker genomic classifier scores for 235 patients with
+      available genomic data.
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62116
+    pub: https://www.sciencedirect.com/science/article/pii/S002253471304603X
+- source: GEO
+  label: GSE51066
+  title: A genomic classifier predicting metastatic disease progression in men with
+    biochemical recurrence after prostatectomy
+  accession: GSE51066
+  year: 2016
+  pubmed_id: 24145624
+  doi: 10.1038/pcan.2013.49
+  platform:
+  - accession: GPL5188
+    name: '[HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]'
+    manufacturer: Affymetrix
+    distribution: commercial
+    technology: in situ oligonucleotide
+  citation: |
+    Ross AE, Feng FY, Ghadessi M, et al.  A genomic classifier predicting metastatic disease progression in men with  biochemical recurrence after prostatectomy.  Prostate Cancer Prostatic Dis. 2014;17(1):64-9.
+  size:
+    'n': 85
+    comments: 85 clinically high-risk patients who developed biochemical recurrence
+      after radical prostatectomy
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51066
+    pub: https://www.nature.com/articles/pcan201349
+- source: GEO
+  label: GSE26367
+  title: Protein-coding and MicroRNA Biomarkers of Recurrence of Prostate Cancer Following
+    Radical Prostatectomy
+  accession: GSE26367
+  year: 2011
+  pubmed: 21703393
+  doi: 10.1016/j.ajpath.2011.03.008
+  platform:
+  - accession: GPL11309
+    name: Illumina Custom Prostate Cancer DASL Panel 1.5K expression beadchip
+    manufacturer: Illumina Inc.
+    distribution: custom-commercial
+    technology: oligonucleotide beads
+  - accession: GPL11350
+    name: Illumina Custom Prostate Cancer DASL Panel miRNA
+    manufacturer: Illumina Inc.
+    distribution: custom-commercial
+    technology: oligonucleotide beads
+  citation: |
+    Long Q, Johnson BA, Osunkoya AO, et al.  Protein-coding and microRNA biomarkers of recurrence of prostate cancer following radical prostatectomy.  Am J Pathol. 2011;179(1):46-54.
+  size:
+    'n': 70
+    comments: 70 formalin-fixed, paraffin-embedded radical prostatectomy specimens
+      with known long-term outcomes
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26367
+    pub: https://www.sciencedirect.com/science/article/pii/S000294401100321X
+  comment: Superseries, includes GSE26022, GSE26242, GSE26245
+- source: GEO
+  label: GSE70770
+  title: Prostate cancer stratification using molecular profiles
+  accession: GSE70770
+  year: 2015
+  pubmed_id:
+  - 26501111
+  - 26950096
+  doi: 10.1016/j.ebiom.2015.07.017
+  platform:
+  - accession: GPL6801
+    name: '[GenomeWideSNP_6] Affymetrix Genome-Wide Human SNP 6.0 Array'
+    manufacturer: Affymetrix
+    distribution: commercial
+    technology: in situ oligonucleotide
+  - accession: GPL10558
+    name: Illumina HumanHT-12 V4.0 expression beadchip
+    manufacturer: Illumina Inc.
+    distribution: commercial
+    technology: oligonucleotide beads
+  - accession: GPL16104
+    name: Illumina HumanOmni2.5-8 BeadChip
+    manufacturer: Illumina, Inc.
+    distribution: custom-commercial
+    technology: oligonucleotide beads
+  - accession: GPL20641
+    name: Illumina HumanOmni2.5M-8v1-1_B [data table]
+    manufacturer: Illumina
+    distribution: commercial
+    technology: oligonucleotide beads
+  citation: |
+    Ross-Adams H, Lamb AD, Dunning MJ, et al.  Integration of copy number and transcriptomics provides risk stratification  in prostate cancer: A discovery and validation cohort study.  EBioMedicine. 2015;2(9):1133-44.
+  size:
+    'n': 808
+    comments: |
+      Ross-Adams (2105): 482 tumour, benign and germline samples from 259 men  with primary prostate cancer. Whitington (2016): 295 prostate cancer chromatin immunoprecipitation and sequencing experiments with genotype and gene  expression data from 602 prostate tumor samples. GEO page: 808 samples.
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70770
+    pub: https://www.sciencedirect.com/science/article/pii/S2352396415300712
+  comments: Superset, includes GSE70768, GSE70769, GSE1965
+- source: GEO
+  label: GSE40272
+  title: Increased expression of NuSAP in recurrent prostate cancer is mediated by
+    E2F1
+  accession: GSE40272
+  year: 2012
+  pubmed_id: 22349817
+  doi: 10.1038/onc.2012.27
+  platform:
+  - accession: GPL9497
+    name: SMD Print_1529 Homo sapiens
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    technology: spotted DNA/cDNA
+  - accession: GPL15971
+    name: SMD Print_1392 hos Homo sapiens
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    technology: spotted DNA/cDNA
+  - accession: GPL15972
+    name: SMD Print_1540 hoaf Homo sapiens
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    technology: spotted DNA/cDNA
+  citation: |
+    Gulzar ZG, Mckenney JK, Brooks JD.  Increased expression of NuSAP in recurrent prostate cancer is mediated by E2F1.  Oncogene. 2013;32(1):70-7.
+  size:
+    'n': 98
+    comments: 98 prostate tumors and 52 benign adjacent prostate tissue samples with
+      detailed clinical annotation
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40272
+    pub: https://www.nature.com/articles/onc201227
+- source: GEO
+  label: GSE62872
+  title: |
+    Association of Prostate Cancer Risk Variants with Gene Expression  in Normal and Tumor Tissue
+  accession: GSE62872
+  pubmed_id: 25371445
+  doi: 10.1158/1055-9965.EPI-14-0694-T
+  year: 2014
+  platform:
+  - name: Affymetrix Human Gene 1.0 ST Array [Gene Symbols]
+    manufacturer: Affymetrix
+    distribution: custom-commercial
+    accession: GPL19370
+    technology: in situ oligonucleotide
+  citation: |
+    Penney KL, Sinnott JA, Tyekucheva S, et al.  Association of prostate cancer risk variants with gene expression in normal and tumor tissue.  Cancer Epidemiol Biomarkers Prev. 2015;24(1):255-60.
+  size:
+    'n': 424
+    comments: |
+      264 prostate tumor and 160 normal prostate tissue samples from the Health  Professionals Follow-up Study and Physicians' Health Study Prostate Tumor Cohort.
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62872
+    pub: http://cebp.aacrjournals.org/content/24/1/255
+- source: GEO
+  label: GSE79021
+  title: |
+    Gene expression profiling of human prostate tumors identifies chromatin  remodeling as a molecular link between obesity and lethal prostate cancer
+  accession: GSE79021
+  pubmed_id: 27663590
+  doi: 10.1158/1078-0432.CCR-16-1245
+  year: 2017
+  platform:
+  - name: Affymetrix Human Gene 1.0 ST Array [Gene Symbols]
+    manufacturer: Affymetrix
+    distribution: custom-commercial
+    accession: GPL19370
+    technology: in situ oligonucleotide
+  citation: |
+    Sinnott JA, Peisch SF, Tyekucheva S, et al.  Prognostic Utility of a New mRNA Expression Signature of Gleason Score.  Clin Cancer Res. 2017;23(1):81-87.
+  size:
+    'n': 602
+    comments: |
+      Gene expression profiling was performed on 602 prostate tissue samples  (402 tumor and 200 normal) from the Health Professionals Follow-up Study  and Physicians' Health Study Prostate Tumor Cohort. This study includes  analysis of 400 samples in GSE62872.
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79021
+    pub: https://www.ncbi.nlm.nih.gov/pubmed/27663590
+- source: GEO
+  label: expO, IGC 2005
+  accession: GSE2109
+  platform:
+  - name: '[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array'
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL570
+    technology: in situ oligonucleotide
+  citation: EXpression Project for Oncology, International Genomics Consortium, www.intgen.org
+  size:
+    'n': 60
+    comments: n=60 after subsetting to prostate
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2109
+- source: GEO
+  label: Sun, Goodison 2009
+  accession: GSE25136
+  pubmed_id: 19343730
+  platform:
+  - name: '[HG-U133A] Affymetrix Human Genome U133A Array'
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL96
+    technology: in situ oligonucleotide
+  citation: Sun Y, Goodison S. Optimizing molecular signatures for predicting prostate
+    cancer recurrence. Prostate 2009 Jul 1;69(10):1119-27.
+- source: GEO
+  label: Taylor, Gerald 2010
+  accession: GSE21032
+  pubmed_id: 20579941
+  platform:
+  - name: '[HuEx-1_0-st] Affymetrix Human Exon 1.0 ST Array [probe set (exon) version]'
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL5188
+    technology: in situ oligonucleotide
+  citation: Taylor BS, Schultz N, Hieronymus H, Gopalan A et al. Integrative genomic
+    profiling of human prostate cancer. Cancer Cell 2010 Jul 13;18(1):11-22.
+- source: GEO
+  label: Sboner, Andr_n 2010
+  accession: GSE16560
+  pubmed_id: 20233430
+  platform:
+  - name: "Human 6k Transcriptionally Informative Gene Panel for DASL\t"
+    manufacturer: Illumina
+    distribution: commercial
+    accession: GPL5474
+    technology: oligonucleotide beads
+  citation: |
+    Sboner A, Demichelis F, Calza S, Pawitan Y et al.  Molecular sampling of prostate cancer: a dilemma for predicting disease progression.  BMC Med Genomics 2010 Mar 16;3:8."
+- source: GEO
+  label: GSE14206
+  accession: GSE14206
+  pubmed_id:
+  - 20479932
+  - 21266046
+  platform:
+  - name: Agilent-012097 Human 1A Microarray (V2) G4110B (Feature Number version)
+    manufacturer: Agilent
+    distribution: commercial
+    accession: GPL887
+    technology: in situ oligonucleotide
+- source: GEO
+  label: Nakagawa, Jenkins 2008
+  accession: GSE10645
+  pubmed_id: 18846227
+  platform:
+  - name: DASL Human Cancer Panel by Gene
+    manufacturer: Illumina
+    distribution: commercial
+    accession: GPL5858
+    technology: oligonucleotide beads
+  - name: DASL Human Cancer Panel by Gene
+    manufacturer: Illumina
+    distribution: commercial
+    accession: GPL5873
+    technology: oligonucleotide beads
+  citation: Nakagawa T, Kollmeyer TM, Morlan BW, Anderson SK et al. A tissue biomarker
+    panel predicting systemic progression after PSA recurrence post-definitive prostate
+    cancer therapy. PLoS One 2008;3(5):e2318.
+- source: GEO
+  label: Arencibia, Bonnin 2009
+  accession: GSE9347
+  pubmed_id: 19148481
+  platform:
+  - name: CNIO H. sapiens 13.6k Oncochip 1
+    distribution: "non-commercial\t"
+    accession: GPL1998
+    technology: spotted DNA/cDNA
+  citation: Arencibia JM, Martên S, P_rez-Rodrêguez FJ, Bonnin A. Gene expression
+    profiling reveals overexpression of TSPAN13 in prostate cancer. Int J Oncol 2009
+    Feb;34(2):457-63.
+- source: GEO
+  label: Poisson, Chinnaiyan 2011
+  accession: GSE8511
+  platform:
+  - name: Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number
+      version)
+    manufacturer: Agilent
+    distribution: "commercial\t"
+    accession: GPL1708
+    technology: in situ oligonucleotide
+  title: Profiling of prostate tissues in prostate cancer progression
+  year: '2011'
+- source: GEO
+  label: GSE7949
+  accession: GSE7949
+  platform:
+  - name: University of Pennsylvania/Nathanson Lab_HomoSapiens_ChromosomeRegion_Virtual
+    manufacturer: Weber Laboratory/School of Medicine/University of Pennsylvania
+    distribution: virtual
+    accession: GPL5338
+    technology: other
+  title: 'Prostate Adenocarcinoma: Candidate Genomic Signatures Prognostic of Biochemical
+    Failure'
+  year: '2007'
+- source: GEO
+  label: Prueitt, Ambs 2008
+  accession: GSE7055
+  pubmed_id: 18459106
+  platform:
+  - name: '[HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL571
+    technology: in situ oligonucleotide
+  citation: Prueitt RL, Yi M, Hudson RS, Wallace TA et al. Expression of microRNAs
+    and protein-coding genes associated with perineural invasion in prostate cancer.
+    Prostate 2008 Aug 1;68(11):1152-64.
+- source: GEO
+  label: Wallace, Ambs 2008
+  accession: GSE6956
+  pubmed ID: 18245496
+  platform:
+  - name: '[HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL571
+    technology: in situ oligonucleotide
+  citation: Wallace TA, Prueitt RL, Yi M, Howe TM et al. Tumor immunobiological differences
+    in prostate cancer between African-American and European-American men. Cancer
+    Res 2008 Feb 1;68(3):927-36.
+- source: GEO
+  label: GSE6919
+  accession: GSE6919
+  pubmed ID:
+  - 17430594
+  - 15254046
+  - 15892885
+  - 17071602
+  platform:
+  - name: '[HG_U95B] Affymetrix Human Genome U95B Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL92
+    technology: in situ oligonucleotide
+  - name: '[HG_U95C] Affymetrix Human Genome U95C Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL93
+    technology: in situ oligonucleotide
+  - name: '[[HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL8300
+    technology: in situ oligonucleotide
+- source: GEO
+  label: GSE6606
+  accession: GSE6606
+  pubmed_id:
+  - 17430594
+  - 15254046
+  - 15892885
+  - 17071602
+  platform:
+  - name: '[HG_U95B] Affymetrix Human Genome U95B Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL92
+    technology: in situ oligonucleotide
+  - name: '[HG_U95C] Affymetrix Human Genome U95C Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL93
+    technology: in situ oligonucleotide
+  - name: '[HG_U95Av2] Affymetrix Human Genome U95 Version 2 Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GPL8300
+    technology: in situ oligonucleotide
+- source: GEO
+  label: Stoss, Albers 2008
+  accession: GSE5377
+  pubmed_id: 17646850
+  platform:
+  - name: '[HG-Focus] Affymetrix Human HG-Focus Target Array'
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: GSE5377
+    technology: in situ oligonucleotide
+  citation: Stoss O, Werther M, Zielinski D, Middel P et al. Transcriptional profiling
+    of transurethral resection samples provides insight into molecular mechanisms
+    of hormone refractory prostate cancer. Prostate Cancer Prostatic Dis 2008;11(2):166-72.
+- source: GEO
+  label: Varambally, Chinnaiyan 2005
+  accession: GSE3325
+  pubmed_id: 16286247
+  platform:
+  - name: HG-U133_Plus_2
+    manufacturer: Affymetrix
+    distribution: "commercial\t"
+    accession: "GPL570\t"
+    technology: in situ oligonucleotide
+  citation: Varambally S, Yu J, Laxman B, Rhodes DR et al. Integrative genomic and
+    proteomic analysis of prostate cancer reveals signatures of metastatic progression.
+    Cancer Cell 2005 Nov;8(5):393-406.
+  size:
+    'n': 19
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3325
+- source: GEO
+  label: True, Nelson 2006
+  accession: GSE5132
+  pubmed_id: 16829574
+  platform:
+  - name: "FHCRC Human Prostate PEDB cDNA Array v4\t"
+    manufacturer: FHCRC Array Facility
+    distribution: non-commercial
+    accession: GPL3834
+    technology: spotted DNA/cDNA
+  - name: FHCRC Human Prostate PEDB cDNA Array v3
+    manufacturer: FHCRC Array Facility
+    distribution: non-commercial
+    accession: GPL3836
+    technology: spotted DNA/cDNA
+  citation: True L, Coleman I, Hawley S, Huang CY et al. A molecular correlate to
+    the Gleason grading system for prostate adenocarcinoma. Proc Natl Acad Sci U S
+    A 2006 Jul 18;103(29):10991-6.
+  size:
+    'n': 32
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5132
+- source: GEO
+  label: Tomlins, Chinnaiyan 2007
+  accession: GSE6099
+  pubmed_id: 17173048
+  platform:
+  - name: Chinnaiyan Human 20K Hs6
+    distribution: non-commercial
+    accession: GPL2013
+    technology: spotted DNA/cDNA
+  citation: Tomlins SA, Mehra R, Rhodes DR, Cao X et al. Integrative molecular concept
+    modeling of prostate cancer progression. Nat Genet 2007 Jan;39(1):41-51.
+  size:
+    'n': 104
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6099
+- source: GEO
+  label: Tamura, Nakagawa 2007
+  accession: GSE6811
+  pubmed_id: 17545589
+  platform:
+  - name: YN Human 36K (sets1-8)
+    manufacturer: Laboratoryof Molecular Medicine, Instutute of Medical Science, the
+      University of Tokyo
+    distribution: non-commercial
+    accession: GPL4747
+    technology: spotted DNA/cDNA
+  citation: Tamura K, Furihata M, Tsunoda T, Ashida S et al. Molecular features of
+    hormone-refractory prostate cancer cells by genome-wide gene expression profiles.
+    Cancer Res 2007 Jun 1;67(11):5117-25.
+  size:
+    'n': 35
+    comments: n=35 samples from HRPC patients
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6811
+- source: GEO
+  label: Setlur, Rubin 2008
+  accession: GSE8402
+  pubmed_id: 18505969
+  platform:
+  - name: Human 6k Transcriptionally Informative Gene Panel for DASL
+    manufacturer: Illumina
+    distribution: commercial
+    accession: "GPL5474\t"
+    technology: "oligonucleotide beads\t"
+  citation: Setlur SR, Mertz KD, Hoshida Y, Demichelis F et al. Estrogen-dependent
+    signaling in a molecularly distinct subclass of aggressive prostate cancer. J
+    Natl Cancer Inst 2008 Jun 4;100(11):815-25.
+  size:
+    'n': 472
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8402
+- source: GEO
+  label: Lapointe, Pollack 2004
+  accession: GSE3933
+  pubmed_id: 14711987
+  doi: 10.1073/pnas.0304146101
+  platform:
+  - name: SHBB
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    accession: GPL2695
+    technology: spotted DNA/cDNA
+  - name: SHCQ
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    accession: GPL3044
+    technology: spotted DNA/cDNA
+  - name: SHBW
+    manufacturer: Stanford Functional Genomics Facility, Stanford School of Medicine
+    distribution: non-commercial
+    accession: GPL3289
+    technology: spotted DNA/cDNA
+  citation: |
+    Lapointe J, Li C, Higgins JP, van de Rijn M et al. Gene expression profiling identifies clinically relevant subtypes of prostate cancer. Proc Natl Acad Sci U S A 2004 Jan 20;101(3):811-6.
+  size:
+    'n': 62
+    comments: n=62 primary, n=42 normal, n=9 lymph
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3933
+- source: GEO
+  label: Best, Chuaqui 2005
+  accession: GSE2443
+  pubmed_id: 16203770
+  platform:
+  - name: HG-U133A
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL96
+    technology: in situ oligonucleotide
+  citation: Best CJ, Gillespie JW, Yi Y, Chandramouli GV et al. Molecular alterations
+    in primary prostate cancer after androgen ablation therapy. Clin Cancer Res 2005
+    Oct 1;11(19 Pt 1):6823-34.
+  size:
+    'n': 20
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2443
+- source: GEO
+  label: Barwick, Abramovitz 2010
+  accession: GSE18655
+  pubmed_id: 20068566
+  platform:
+  - name: DASL Human Cancer Panel by Gene
+    manufacturer: Illumina
+    distribution: commercial
+    accession: GPL5858
+    technology: oligonucleotide beads
+  citation: Barwick BG, Abramovitz M, Kodani M, Moreno CS et al. Prostate cancer genes
+    associated with TMPRSS2-ERG gene fusion and prognostic of biochemical recurrence
+    in multiple cohorts. Br J Cancer 2010 Feb 2;102(3):570-6.
+  size:
+    'n': 139
+    comments: n=139, DASL=502 genes
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18655
+- source: GEO
+  label: Chandran, Monzon 2007
+  accession: GSE6752
+  pubmed_id: 17430594
+  platform:
+  - name: GE Healthcare/Amersham Biosciences CodeLink UniSet Human 20K I Bioarray
+    manufacturer: GE Healthcare
+    distribution: commercial
+    accession: GPL2891
+    technology: spotted oligonucleotide
+  citation: Chandran UR, Ma C, Dhir R, Bisceglia M et al. Gene expression profiles
+    of prostate cancer reveal involvement of multiple molecular pathways in the metastatic
+    process. BMC Cancer 2007 Apr 12;7:64.
+  size:
+    'n': 24
+    comments: n=24 samples from 4 patients (multiple metastatic samples)
+  link:
+    primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6752
+- source: cBioportal
+  label: PRAD MICH, Nature 2012
+  size:
+    'n': 10
+  platform:
+  - technology: RNAseq
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_mich#summary
+    data: http://download.cbioportal.org/prad_mich.tar.gz
+- source: cBioportal
+  label: PRAD FHCRC, Nat Med 2016
+  size:
+    'n': 171
+  platform:
+  - technology: microarray
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_fhcrc#summary
+    data: http://download.cbioportal.org/prad_fhcrc.tar.gz
+- source: cBioportal
+  label: PRAD Broad, Nat Gen 2012
+  size:
+    'n': 31
+  platform:
+  - technology: microarray
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_broad#summary
+    data: http://download.cbioportal.org/prad_broad.tar.gz
+  comments: overlaps with PRAD Broad Cell 2013?
+- source: cBioportal
+  label: PRAD Broad, Cell 2013
+  size:
+    'n': 16
+  platform:
+  - technology: microarray
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_broad_2013#summary
+    data: http://download.cbioportal.org/prad_broad_2013.tar.gz
+- source: cBioportal
+  label: SU2C/PCF Dream Team, Cell 2015
+  size:
+    'n': 118
+  platform:
+  - technology: RNAseq
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_su2c_2015#summary
+    data: http://download.cbioportal.org/prad_su2c_2015.tar.gz
+- source: cBioportal
+  label: TCGA, Cell 2015
+  pubmed_id: 26544944
+  doi: 10.1016/j.cell.2015.10.025
+  size:
+    'n': 333
+  platform:
+  - technology: RNAseq
+  link:
+    primary: http://www.cbioportal.org/study?id=prad_tcga_pub#summary
+    data: http://download.cbioportal.org/prad_tcga_pub.tar.gz
+- source: ArrayExpress
+  label: Kamoun et al.
+  size:
+    'n': 132
+  link:
+    primary: https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6131/
+- source: ArrayExpress
+  label: Liu et al. 2006
+  size:
+    'n': 57
+  platform:
+  - name: Affy U133
+  link:
+    primary: https://www.ebi.ac.uk/arrayexpress/experiments/E-TABM-26/
+- source: Unknown
+  label: Liu P, Moreno CS 2006
+  title: |
+    Sex-Determining Region Y Box 4 Is a Transforming Oncogene in  Human Prostate Cancer Cells
+  pubmed_id: 16618720
+  doi: 10.1158/0008-5472.CAN-05-3055
+  platform:
+  - name: '[HG-U133A] Affymetrix Human Genome U133A Array'
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL96
+    technology: in situ oligonucleotide
+  - name: '[HG-U133A] Affymetrix Human Genome U133B Array'
+    manufacturer: Affymetrix
+    distribution: commercial
+    accession: GPL97
+    technology: in situ oligonucleotide
+  citation: |
+    Liu P, Ramachandran S, Ali Seyed M, Scharer CD, Laycock N, Dalton WB, Williams H, Karanam S, Datta MW, Jaye DL, Moreno CS Cancer Res. 2006 Apr 15;66(8):4011-9
+  link:
+    pub: http://cancerres.aacrjournals.org/content/66/8/4011

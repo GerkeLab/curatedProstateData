@@ -59,6 +59,7 @@ pubs %>%
 
 #+ pubs-table, echo=FALSE
 pubmed_link <- function(x) {
+  if (is.na(x) | x == "" | x == "NA") return("")
   x <- str_split(x, ", ")[[1]]
   x <- glue::glue("[{x}](https://www.ncbi.nlm.nih.gov/pubmed/{x})")
   paste(x, collapse = ", ")
@@ -75,7 +76,7 @@ pubs %>%
     citekey = map(citekey, ~ str_remove_all(., "@\\w+\\{")),
     citekey = map_chr(citekey, ~ paste0(., collapse = ", ")),
     doi = map_chr(doi, doi_link),
-    pubmed_id = pubmed_link(pubmed_id)
+    pubmed_id = map_chr(pubmed_id, pubmed_link)
   ) %>%
   select(label, doi, pubmed_id, citekey) %>%
   mutate_all(~ ifelse(is.na(.), "", .)) %>%

@@ -2,6 +2,8 @@ library(yaml)
 library(gh)
 library(stringr)
 library(dplyr)
+library(purrr)
+library(readr)
 
 get_issues_with_label <- function(label) {
   gh("GET /repos/gerkelab/curatedProstateData/issues", labels = label) %>%
@@ -34,7 +36,13 @@ issues <- c("GEO", "cBioportal", "Other Source") %>%
 
 issues %>%
   filter(str_detect(title, "Data - ")) %>%
-  pull(body) %>%
-  purrr::map_chr(extract_body_as_yaml) %>%
+  mutate(yaml = map_chr(body, extract_body_as_yaml)) %>%
+  # Add github link to yaml
+  mutate(
+    url = str_remove(url, "api\\."),
+    yaml = str_replace(yaml, "(label: .+?\n)", paste0("\\1   github_issue: \"", url, "\"\n"))
+  ) %>%
+  write_csv(here::here("metadata/data.csv")) %>%
+  pull(yaml) %>%
   yaml.load() %>%
   write_yaml(file = here::here("metadata/data.yaml"))

@@ -1,5 +1,5 @@
 source,url,id,title,body,yaml
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/32,344938747,Data - GSE62116 - GenomeDx,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/32,344938747,Data - GSE62116 - GenomeDx,"Source: GEO
  
 ```yaml
 label: GSE62116
@@ -27,7 +27,7 @@ link:
   pub: https://www.sciencedirect.com/science/article/pii/S002253471304603X
 ```","-  source: GEO
    label: GSE62116
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/32""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/32""
    title: Validation of a genomic classifier that predicts metastasis following radical prostatectomy in at risk patient population
    accession: GSE62116
    year: 2014
@@ -50,7 +50,7 @@ link:
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62116
      pub: https://www.sciencedirect.com/science/article/pii/S002253471304603X"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/31,344938742,Data - GSE51066 - Ross et al. 2016,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/31,344938742,Data - GSE51066 - Ross et al. 2016,"Source: GEO
  
 ```yaml
 label: GSE51066
@@ -78,7 +78,7 @@ link:
   pub: https://www.nature.com/articles/pcan201349
 ```","-  source: GEO
    label: GSE51066
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/31""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/31""
    title: A genomic classifier predicting metastatic disease progression in men with biochemical recurrence after prostatectomy
    accession: GSE51066
    year: 2016
@@ -101,7 +101,7 @@ link:
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51066
      pub: https://www.nature.com/articles/pcan201349"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/30,344938740,Data - GSE26367,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/30,344938740,Data - GSE26367,"Source: GEO
  
 ```yaml
 label: GSE26367
@@ -134,7 +134,7 @@ link:
 comment: Superseries, includes GSE26022, GSE26242, GSE26245
 ```","-  source: GEO
    label: GSE26367
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/30""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/30""
    title: Protein-coding and MicroRNA Biomarkers of Recurrence of Prostate Cancer Following Radical Prostatectomy
    accession: GSE26367
    year: 2011
@@ -162,7 +162,7 @@ comment: Superseries, includes GSE26022, GSE26242, GSE26245
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26367
      pub: https://www.sciencedirect.com/science/article/pii/S000294401100321X
    comment: Superseries, includes GSE26022, GSE26242, GSE26245"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/29,344938735,Data - GSE70770 - Ross-Adams et al. 2015,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/29,344938735,Data - GSE70770 - Ross-Adams et al. 2015,"Source: GEO
  
 ```yaml
 label: GSE70770
@@ -210,7 +210,7 @@ link:
 comments: Superset, includes GSE70768, GSE70769, GSE1965
 ```","-  source: GEO
    label: GSE70770
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/29""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/29""
    title: Prostate cancer stratification using molecular profiles
    accession: GSE70770
    year: 2015
@@ -253,7 +253,7 @@ comments: Superset, includes GSE70768, GSE70769, GSE1965
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70770
      pub: https://www.sciencedirect.com/science/article/pii/S2352396415300712
    comments: Superset, includes GSE70768, GSE70769, GSE1965"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/28,344938732,"Data - GSE40272 - Gulzar, Mckenney, Brooks 2012","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/28,344938732,"Data - GSE40272 - Gulzar, Mckenney, Brooks 2012","Source: GEO
  
 ```yaml
 label: GSE40272
@@ -290,7 +290,7 @@ link:
   pub: https://www.nature.com/articles/onc201227
 ```","-  source: GEO
    label: GSE40272
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/28""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/28""
    title: Increased expression of NuSAP in recurrent prostate cancer is mediated by E2F1
    accession: GSE40272
    year: 2012
@@ -322,7 +322,7 @@ link:
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40272
      pub: https://www.nature.com/articles/onc201227"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/27,344938729,Data - GSE62872 - Penney 2014,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/27,344938729,Data - GSE62872 - Penney 2014,"Source: GEO
  
 ```yaml
 label: GSE62872
@@ -353,7 +353,7 @@ link:
   pub: http://cebp.aacrjournals.org/content/24/1/255
 ```","-  source: GEO
    label: GSE62872
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/27""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/27""
    title: >
      Association of Prostate Cancer Risk Variants with Gene Expression 
      in Normal and Tumor Tissue
@@ -379,7 +379,7 @@ link:
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE62872
      pub: http://cebp.aacrjournals.org/content/24/1/255"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/26,344938724,Data - GSE79021 - Sinnott 2017,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/26,344938724,Data - GSE79021 - Sinnott 2017,"Source: GEO
  
 ```yaml
 label: GSE79021
@@ -412,7 +412,7 @@ link:
   pub: https://www.ncbi.nlm.nih.gov/pubmed/27663590
 ```","-  source: GEO
    label: GSE79021
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/26""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/26""
    title: >
      Gene expression profiling of human prostate tumors identifies chromatin 
      remodeling as a molecular link between obesity and lethal prostate cancer
@@ -440,7 +440,7 @@ link:
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79021
      pub: https://www.ncbi.nlm.nih.gov/pubmed/27663590"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/24,344938718,"Data - GSE2109 - expO, IGC 2005","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/24,344938718,"Data - GSE2109 - expO, IGC 2005","Source: GEO
  
 ```yaml
 label: expO, IGC 2005
@@ -460,7 +460,7 @@ link:
 
 ```","-  source: GEO
    label: expO, IGC 2005
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/24""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/24""
    accession: GSE2109
    platform:
    - name: '[HG-U133_Plus_2] Affymetrix Human Genome U133 Plus 2.0 Array'
@@ -474,7 +474,7 @@ link:
      comments: n=60 after subsetting to prostate
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2109"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/23,344938716,"Data - GSE25136 - Sun, Goodison 2009","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/23,344938716,"Data - GSE25136 - Sun, Goodison 2009","Source: GEO
  
 ```yaml
 label: Sun, Goodison 2009
@@ -491,7 +491,7 @@ citation: Sun Y, Goodison S. Optimizing molecular signatures for predicting pros
 
 ```","-  source: GEO
    label: Sun, Goodison 2009
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/23""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/23""
    accession: GSE25136
    pubmed_id: 19343730
    platform:
@@ -502,7 +502,7 @@ citation: Sun Y, Goodison S. Optimizing molecular signatures for predicting pros
      technology: in situ oligonucleotide
    citation: Sun Y, Goodison S. Optimizing molecular signatures for predicting prostate
      cancer recurrence. Prostate 2009 Jul 1;69(10):1119-27."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/22,344938715,"Data - GSE21032 - Taylor, Gerald 2010","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/22,344938715,"Data - GSE21032 - Taylor, Gerald 2010","Source: GEO
  
 ```yaml
 label: Taylor, Gerald 2010
@@ -519,7 +519,7 @@ citation: Taylor BS, Schultz N, Hieronymus H, Gopalan A et al. Integrative genom
 
 ```","-  source: GEO
    label: Taylor, Gerald 2010
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/22""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/22""
    accession: GSE21032
    pubmed_id: 20579941
    platform:
@@ -530,7 +530,7 @@ citation: Taylor BS, Schultz N, Hieronymus H, Gopalan A et al. Integrative genom
      technology: in situ oligonucleotide
    citation: Taylor BS, Schultz N, Hieronymus H, Gopalan A et al. Integrative genomic
      profiling of human prostate cancer. Cancer Cell 2010 Jul 13;18(1):11-22."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/21,344938712,"Data - GSE16560 - Sboner, Andr_n 2010","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/21,344938712,"Data - GSE16560 - Sboner, Andr_n 2010","Source: GEO
  
 ```yaml
 label: Sboner, Andr_n 2010
@@ -548,7 +548,7 @@ citation: >
   BMC Med Genomics 2010 Mar 16;3:8.""
 ```","-  source: GEO
    label: Sboner, Andr_n 2010
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/21""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/21""
    accession: GSE16560
    pubmed_id: 20233430
    platform:
@@ -561,7 +561,7 @@ citation: >
      Sboner A, Demichelis F, Calza S, Pawitan Y et al. 
      Molecular sampling of prostate cancer: a dilemma for predicting disease progression. 
      BMC Med Genomics 2010 Mar 16;3:8."""
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/20,344938708,Data - GSE14206 - GSE14206,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/20,344938708,Data - GSE14206 - GSE14206,"Source: GEO
  
 ```yaml
 label: GSE14206
@@ -578,7 +578,7 @@ platform:
 
 ```","-  source: GEO
    label: GSE14206
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/20""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/20""
    accession: GSE14206
    pubmed_id:
    - 20479932
@@ -589,7 +589,7 @@ platform:
      distribution: commercial
      accession: GPL887
      technology: in situ oligonucleotide"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/19,344938704,"Data - GSE10645 - Nakagawa, Jenkins 2008","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/19,344938704,"Data - GSE10645 - Nakagawa, Jenkins 2008","Source: GEO
  
 ```yaml
 label: Nakagawa, Jenkins 2008
@@ -612,7 +612,7 @@ citation: Nakagawa T, Kollmeyer TM, Morlan BW, Anderson SK et al. A tissue bioma
 
 ```","-  source: GEO
    label: Nakagawa, Jenkins 2008
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/19""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/19""
    accession: GSE10645
    pubmed_id: 18846227
    platform:
@@ -629,7 +629,7 @@ citation: Nakagawa T, Kollmeyer TM, Morlan BW, Anderson SK et al. A tissue bioma
    citation: Nakagawa T, Kollmeyer TM, Morlan BW, Anderson SK et al. A tissue biomarker
      panel predicting systemic progression after PSA recurrence post-definitive prostate
      cancer therapy. PLoS One 2008;3(5):e2318."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/18,344938700,"Data - GSE9347 - Arencibia, Bonnin 2009","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/18,344938700,"Data - GSE9347 - Arencibia, Bonnin 2009","Source: GEO
  
 ```yaml
 label: Arencibia, Bonnin 2009
@@ -645,7 +645,7 @@ citation: Arencibia JM, Martên S, P_rez-Rodrêguez FJ, Bonnin A. Gene expressio
 
 ```","-  source: GEO
    label: Arencibia, Bonnin 2009
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/18""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/18""
    accession: GSE9347
    pubmed_id: 19148481
    platform:
@@ -655,7 +655,7 @@ citation: Arencibia JM, Martên S, P_rez-Rodrêguez FJ, Bonnin A. Gene expressio
      technology: spotted DNA/cDNA
    citation: Arencibia JM, Martên S, P_rez-Rodrêguez FJ, Bonnin A. Gene expression profiling
      reveals overexpression of TSPAN13 in prostate cancer. Int J Oncol 2009 Feb;34(2):457-63."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/17,344938697,"Data - GSE8511 - Poisson, Chinnaiyan 2011","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/17,344938697,"Data - GSE8511 - Poisson, Chinnaiyan 2011","Source: GEO
  
 ```yaml
 label: Poisson, Chinnaiyan 2011
@@ -672,7 +672,7 @@ year: '2011'
 
 ```","-  source: GEO
    label: Poisson, Chinnaiyan 2011
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/17""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/17""
    accession: GSE8511
    platform:
    - name: Agilent-012391 Whole Human Genome Oligo Microarray G4112A (Feature Number
@@ -683,7 +683,7 @@ year: '2011'
      technology: in situ oligonucleotide
    title: Profiling of prostate tissues in prostate cancer progression
    year: '2011'"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/16,344938692,Data - GSE7949 - GSE7949,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/16,344938692,Data - GSE7949 - GSE7949,"Source: GEO
  
 ```yaml
 label: GSE7949
@@ -700,7 +700,7 @@ year: '2007'
 
 ```","-  source: GEO
    label: GSE7949
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/16""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/16""
    accession: GSE7949
    platform:
    - name: University of Pennsylvania/Nathanson Lab_HomoSapiens_ChromosomeRegion_Virtual
@@ -711,7 +711,7 @@ year: '2007'
    title: 'Prostate Adenocarcinoma: Candidate Genomic Signatures Prognostic of Biochemical
      Failure'
    year: '2007'"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/15,344938686,"Data - GSE7055 - Prueitt, Ambs 2008","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/15,344938686,"Data - GSE7055 - Prueitt, Ambs 2008","Source: GEO
  
 ```yaml
 label: Prueitt, Ambs 2008
@@ -729,7 +729,7 @@ citation: Prueitt RL, Yi M, Hudson RS, Wallace TA et al. Expression of microRNAs
 
 ```","-  source: GEO
    label: Prueitt, Ambs 2008
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/15""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/15""
    accession: GSE7055
    pubmed_id: 18459106
    platform:
@@ -741,12 +741,12 @@ citation: Prueitt RL, Yi M, Hudson RS, Wallace TA et al. Expression of microRNAs
    citation: Prueitt RL, Yi M, Hudson RS, Wallace TA et al. Expression of microRNAs and
      protein-coding genes associated with perineural invasion in prostate cancer. Prostate
      2008 Aug 1;68(11):1152-64."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/14,344938681,"Data - GSE6956 - Wallace, Ambs 2008","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/14,344938681,"Data - GSE6956 - Wallace, Ambs 2008","Source: GEO
  
 ```yaml
 label: Wallace, Ambs 2008
 accession: GSE6956
-pubmed ID: 18245496
+pubmed_id: 18245496
 platform:
 - name: '[HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array'
   manufacturer: Affymetrix
@@ -759,9 +759,9 @@ citation: Wallace TA, Prueitt RL, Yi M, Howe TM et al. Tumor immunobiological di
 
 ```","-  source: GEO
    label: Wallace, Ambs 2008
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/14""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/14""
    accession: GSE6956
-   pubmed ID: 18245496
+   pubmed_id: 18245496
    platform:
    - name: '[HG-U133A_2] Affymetrix Human Genome U133A 2.0 Array'
      manufacturer: Affymetrix
@@ -771,12 +771,12 @@ citation: Wallace TA, Prueitt RL, Yi M, Howe TM et al. Tumor immunobiological di
    citation: Wallace TA, Prueitt RL, Yi M, Howe TM et al. Tumor immunobiological differences
      in prostate cancer between African-American and European-American men. Cancer Res
      2008 Feb 1;68(3):927-36."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/13,344938677,Data - GSE6919 - GSE6919,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/13,344938677,Data - GSE6919 - GSE6919,"Source: GEO
  
 ```yaml
 label: GSE6919
 accession: GSE6919
-pubmed ID:
+pubmed_id:
 - 17430594
 - 15254046
 - 15892885
@@ -800,9 +800,9 @@ platform:
 
 ```","-  source: GEO
    label: GSE6919
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/13""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/13""
    accession: GSE6919
-   pubmed ID:
+   pubmed_id:
    - 17430594
    - 15254046
    - 15892885
@@ -823,7 +823,7 @@ platform:
      distribution: ""commercial\t""
      accession: GPL8300
      technology: in situ oligonucleotide"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/12,344938673,Data - GSE6606 - GSE6606,"Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/12,344938673,Data - GSE6606 - GSE6606,"Source: GEO
  
 ```yaml
 label: GSE6606
@@ -852,7 +852,7 @@ platform:
 
 ```","-  source: GEO
    label: GSE6606
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/12""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/12""
    accession: GSE6606
    pubmed_id:
    - 17430594
@@ -875,7 +875,7 @@ platform:
      distribution: ""commercial\t""
      accession: GPL8300
      technology: in situ oligonucleotide"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/11,344936510,"Data - GSE5377 - Stoss, Albers 2008","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/11,344936510,"Data - GSE5377 - Stoss, Albers 2008","Source: GEO
  
 ```yaml
 label: Stoss, Albers 2008
@@ -893,7 +893,7 @@ citation: Stoss O, Werther M, Zielinski D, Middel P et al. Transcriptional profi
 
 ```","-  source: GEO
    label: Stoss, Albers 2008
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/11""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/11""
    accession: GSE5377
    pubmed_id: 17646850
    platform:
@@ -905,7 +905,7 @@ citation: Stoss O, Werther M, Zielinski D, Middel P et al. Transcriptional profi
    citation: Stoss O, Werther M, Zielinski D, Middel P et al. Transcriptional profiling
      of transurethral resection samples provides insight into molecular mechanisms of
      hormone refractory prostate cancer. Prostate Cancer Prostatic Dis 2008;11(2):166-72."
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/10,344936508,"Data - GSE3325 - Varambally, Chinnaiyan 2005","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/10,344936508,"Data - GSE3325 - Varambally, Chinnaiyan 2005","Source: GEO
  
 ```yaml
 label: Varambally, Chinnaiyan 2005
@@ -927,7 +927,7 @@ link:
 
 ```","-  source: GEO
    label: Varambally, Chinnaiyan 2005
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/10""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/10""
    accession: GSE3325
    pubmed_id: 16286247
    platform:
@@ -943,7 +943,7 @@ link:
      'n': 19
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3325"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/9,344936505,"Data - GSE5132 - True, Nelson 2006","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/9,344936505,"Data - GSE5132 - True, Nelson 2006","Source: GEO
  
 ```yaml
 label: True, Nelson 2006
@@ -970,7 +970,7 @@ link:
 
 ```","-  source: GEO
    label: True, Nelson 2006
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/9""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/9""
    accession: GSE5132
    pubmed_id: 16829574
    platform:
@@ -991,7 +991,7 @@ link:
      'n': 32
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE5132"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/8,344936502,"Data - GSE6099 - Tomlins, Chinnaiyan 2007","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/8,344936502,"Data - GSE6099 - Tomlins, Chinnaiyan 2007","Source: GEO
  
 ```yaml
 label: Tomlins, Chinnaiyan 2007
@@ -1011,7 +1011,7 @@ link:
 
 ```","-  source: GEO
    label: Tomlins, Chinnaiyan 2007
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/8""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/8""
    accession: GSE6099
    pubmed_id: 17173048
    platform:
@@ -1025,7 +1025,7 @@ link:
      'n': 104
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6099"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/7,344936499,"Data - GSE6811 - Tamura, Nakagawa 2007","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/7,344936499,"Data - GSE6811 - Tamura, Nakagawa 2007","Source: GEO
  
 ```yaml
 label: Tamura, Nakagawa 2007
@@ -1049,7 +1049,7 @@ link:
 
 ```","-  source: GEO
    label: Tamura, Nakagawa 2007
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/7""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/7""
    accession: GSE6811
    pubmed_id: 17545589
    platform:
@@ -1067,7 +1067,7 @@ link:
      comments: n=35 samples from HRPC patients
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6811"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/6,344936498,"Data - GSE8402 - Setlur, Rubin 2008","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/6,344936498,"Data - GSE8402 - Setlur, Rubin 2008","Source: GEO
  
 ```yaml
 label: Setlur, Rubin 2008
@@ -1089,7 +1089,7 @@ link:
 
 ```","-  source: GEO
    label: Setlur, Rubin 2008
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/6""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/6""
    accession: GSE8402
    pubmed_id: 18505969
    platform:
@@ -1105,7 +1105,7 @@ link:
      'n': 472
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE8402"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/5,344936495,"Data - GSE3933 - Lapointe, Pollack 2004","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/5,344936495,"Data - GSE3933 - Lapointe, Pollack 2004","Source: GEO
  
 ```yaml
 label: Lapointe, Pollack 2004
@@ -1138,7 +1138,7 @@ link:
 
 ```","-  source: GEO
    label: Lapointe, Pollack 2004
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/5""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/5""
    accession: GSE3933
    pubmed_id: 14711987
    doi: 10.1073/pnas.0304146101
@@ -1165,7 +1165,7 @@ link:
      comments: n=62 primary, n=42 normal, n=9 lymph
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE3933"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/4,344936492,"Data - GSE2443 - Best, Chuaqui 2005","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/4,344936492,"Data - GSE2443 - Best, Chuaqui 2005","Source: GEO
  
 ```yaml
 label: Best, Chuaqui 2005
@@ -1187,7 +1187,7 @@ link:
 
 ```","-  source: GEO
    label: Best, Chuaqui 2005
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/4""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/4""
    accession: GSE2443
    pubmed_id: 16203770
    platform:
@@ -1203,7 +1203,7 @@ link:
      'n': 20
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2443"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/3,344936486,"Data - GSE18655 - Barwick, Abramovitz 2010","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/3,344936486,"Data - GSE18655 - Barwick, Abramovitz 2010","Source: GEO
  
 ```yaml
 label: Barwick, Abramovitz 2010
@@ -1226,7 +1226,7 @@ link:
 
 ```","-  source: GEO
    label: Barwick, Abramovitz 2010
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/3""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/3""
    accession: GSE18655
    pubmed_id: 20068566
    platform:
@@ -1243,7 +1243,7 @@ link:
      comments: n=139, DASL=502 genes
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE18655"
-GEO,https://github.com/repos/GerkeLab/curatedProstateData/issues/2,344936479,"Data - GSE6752 - Chandran, Monzon 2007","Source: GEO
+GEO,https://github.com/GerkeLab/curatedProstateData/issues/2,344936479,"Data - GSE6752 - Chandran, Monzon 2007","Source: GEO
  
 ```yaml
 label: Chandran, Monzon 2007
@@ -1266,7 +1266,7 @@ link:
 
 ```","-  source: GEO
    label: Chandran, Monzon 2007
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/2""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/2""
    accession: GSE6752
    pubmed_id: 17430594
    platform:
@@ -1283,10 +1283,11 @@ link:
      comments: n=24 samples from 4 patients (multiple metastatic samples)
    link:
      primary: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE6752"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/38,344938767,"Data - PRAD MICH, Nature 2012","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/38,344938767,"Data - PRAD MICH, Nature 2012","Source: cBioportal
  
 ```yaml
 label: PRAD MICH, Nature 2012
+pubmed_id: 22722839
 size:
   'n': 10
 platform:
@@ -1297,7 +1298,8 @@ link:
 
 ```","-  source: cBioportal
    label: PRAD MICH, Nature 2012
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/38""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/38""
+   pubmed_id: 22722839
    size:
      'n': 10
    platform:
@@ -1305,10 +1307,11 @@ link:
    link:
      primary: http://www.cbioportal.org/study?id=prad_mich#summary
      data: http://download.cbioportal.org/prad_mich.tar.gz"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/37,344938762,"Data - PRAD FHCRC, Nat Med 2016","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/37,344938762,"Data - PRAD FHCRC, Nat Med 2016","Source: cBioportal
  
 ```yaml
 label: PRAD FHCRC, Nat Med 2016
+pumed_id: 26928463
 size:
   'n': 171
 platform:
@@ -1319,7 +1322,8 @@ link:
 
 ```","-  source: cBioportal
    label: PRAD FHCRC, Nat Med 2016
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/37""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/37""
+   pumed_id: 26928463
    size:
      'n': 171
    platform:
@@ -1327,10 +1331,11 @@ link:
    link:
      primary: http://www.cbioportal.org/study?id=prad_fhcrc#summary
      data: http://download.cbioportal.org/prad_fhcrc.tar.gz"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/36,344938760,"Data - PRAD Broad, Nat Gen 2012","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/36,344938760,"Data - PRAD Broad, Nat Gen 2012","Source: cBioportal
  
 ```yaml
 label: PRAD Broad, Nat Gen 2012
+pubmed_id: 22610119
 size:
   'n': 31
 platform:
@@ -1342,7 +1347,8 @@ comments: overlaps with PRAD Broad Cell 2013?
 
 ```","-  source: cBioportal
    label: PRAD Broad, Nat Gen 2012
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/36""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/36""
+   pubmed_id: 22610119
    size:
      'n': 31
    platform:
@@ -1351,10 +1357,11 @@ comments: overlaps with PRAD Broad Cell 2013?
      primary: http://www.cbioportal.org/study?id=prad_broad#summary
      data: http://download.cbioportal.org/prad_broad.tar.gz
    comments: overlaps with PRAD Broad Cell 2013?"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/35,344938759,"Data - PRAD Broad, Cell 2013","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/35,344938759,"Data - PRAD Broad, Cell 2013","Source: cBioportal
  
 ```yaml
 label: PRAD Broad, Cell 2013
+pubmed_id: 23622249
 size:
   'n': 16
 platform:
@@ -1365,7 +1372,8 @@ link:
 
 ```","-  source: cBioportal
    label: PRAD Broad, Cell 2013
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/35""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/35""
+   pubmed_id: 23622249
    size:
      'n': 16
    platform:
@@ -1373,10 +1381,11 @@ link:
    link:
      primary: http://www.cbioportal.org/study?id=prad_broad_2013#summary
      data: http://download.cbioportal.org/prad_broad_2013.tar.gz"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/34,344938757,"Data - SU2C/PCF Dream Team, Cell 2015","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/34,344938757,"Data - SU2C/PCF Dream Team, Cell 2015","Source: cBioportal
  
 ```yaml
 label: SU2C/PCF Dream Team, Cell 2015
+pubmed_id: 26000489
 size:
   'n': 118
 platform:
@@ -1387,7 +1396,8 @@ link:
 
 ```","-  source: cBioportal
    label: SU2C/PCF Dream Team, Cell 2015
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/34""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/34""
+   pubmed_id: 26000489
    size:
      'n': 118
    platform:
@@ -1395,7 +1405,7 @@ link:
    link:
      primary: http://www.cbioportal.org/study?id=prad_su2c_2015#summary
      data: http://download.cbioportal.org/prad_su2c_2015.tar.gz"
-cBioportal,https://github.com/repos/GerkeLab/curatedProstateData/issues/33,344938751,"Data - TCGA, Cell 2015","Source: cBioportal
+cBioportal,https://github.com/GerkeLab/curatedProstateData/issues/33,344938751,"Data - TCGA, Cell 2015","Source: cBioportal
  
 ```yaml
 label: TCGA, Cell 2015
@@ -1411,7 +1421,7 @@ link:
 
 ```","-  source: cBioportal
    label: TCGA, Cell 2015
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/33""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/33""
    pubmed_id: 26544944
    doi: 10.1016/j.cell.2015.10.025
    size:
@@ -1421,10 +1431,11 @@ link:
    link:
      primary: http://www.cbioportal.org/study?id=prad_tcga_pub#summary
      data: http://download.cbioportal.org/prad_tcga_pub.tar.gz"
-Other Source,https://github.com/repos/GerkeLab/curatedProstateData/issues/40,344938774,Data - Kamoun et al.,"Source: ArrayExpress
+Other Source,https://github.com/GerkeLab/curatedProstateData/issues/40,344938774,Data - Kamoun et al.,"Source: ArrayExpress
  
 ```yaml
 label: Kamoun et al.
+pubmed_id: 29945238
 size:
   'n': 132
 link:
@@ -1432,15 +1443,17 @@ link:
 
 ```","-  source: ArrayExpress
    label: Kamoun et al.
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/40""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/40""
+   pubmed_id: 29945238
    size:
      'n': 132
    link:
      primary: https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-6131/"
-Other Source,https://github.com/repos/GerkeLab/curatedProstateData/issues/39,344938772,Data - Liu et al. 2006,"Source: ArrayExpress
+Other Source,https://github.com/GerkeLab/curatedProstateData/issues/39,344938772,Data - Liu et al. 2006,"Source: ArrayExpress
  
 ```yaml
 label: Liu et al. 2006
+pubmed_id: 16618720
 size:
   'n': 57
 platform:
@@ -1450,14 +1463,15 @@ link:
 
 ```","-  source: ArrayExpress
    label: Liu et al. 2006
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/39""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/39""
+   pubmed_id: 16618720
    size:
      'n': 57
    platform:
    - name: Affy U133
    link:
      primary: https://www.ebi.ac.uk/arrayexpress/experiments/E-TABM-26/"
-Other Source,https://github.com/repos/GerkeLab/curatedProstateData/issues/25,344938721,"Data - Liu P, Moreno CS 2006","Source: Unknown
+Other Source,https://github.com/GerkeLab/curatedProstateData/issues/25,344938721,"Data - Liu P, Moreno CS 2006","Source: Unknown
  
 ```yaml
 label: Liu P, Moreno CS 2006
@@ -1484,7 +1498,7 @@ link:
   pub: http://cancerres.aacrjournals.org/content/66/8/4011
 ```","-  source: Unknown
    label: Liu P, Moreno CS 2006
-   github_issue: ""https://github.com/repos/GerkeLab/curatedProstateData/issues/25""
+   github_issue: ""https://github.com/GerkeLab/curatedProstateData/issues/25""
    title: >
      Sex-Determining Region Y Box 4 Is a Transforming Oncogene in 
      Human Prostate Cancer Cells

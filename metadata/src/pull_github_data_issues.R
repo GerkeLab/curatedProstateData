@@ -40,6 +40,7 @@ issues %>%
   # Add github link to yaml
   mutate(
     url = str_remove(url, "api\\."),
+    url = str_remove(url, "repos/"),
     yaml = str_replace(yaml, "(label: .+?\n)", paste0("\\1   github_issue: \"", url, "\"\n"))
   ) %>%
   write_csv(here::here("metadata/data.csv")) %>%

@@ -6,68 +6,79 @@
 #' ---
 
 #+ setup, include = FALSE
-library(tidyverse)
+library(dplyr)
+library(stringr)
+library(readr)
+library(purrr)
+library(tidyr)
 library(yaml)
 library(RefManageR)
 library(rcrossref)
-knitr::opts_chunk$set(cache = TRUE)
+knitr::opts_chunk$set(cache = TRUE, include = FALSE, echo = FALSE)
 options(knitr.kable.NA = '')
 
+#+ load-metadata
 metadata <- read_yaml(here::here("metadata/data.yaml"))
 
-pubs <- metadata %>%
-  map(~ .[c("label", "year", "pubmed_id", "doi", "citation")]) %>%
-  transpose() %>%
-  modify_depth(2, ~ if (is.null(.)) NA_character_ else .) %>%
-  map(~ map(., as.character)) %>%
-  as_tibble() %>%
-  unnest(label, year, doi, citation, .drop = FALSE) %>%
-  select(label, year, doi, citation, pubmed_id)
-
-
-get_bibtex <- function(doi, pubmed_id) {
-  if ((is.null(doi) || is.na(doi)) &&
-      (is.null(pubmed_id) || is.na(pubmed_id))) {
-    return(NA_character_)
-  }
-  if (!is.na(doi)) {
-    rcrossref::cr_cn(doi, format = "bibtex", raw = TRUE)
-  } else {
-    map_chr(
-      pubmed_id,
-      ~ RefManageR::ReadPubMed(.) %>%
-        RefManageR::toBiblatex() %>%
-        paste(collapse = "\n")
-    ) %>%
-      paste(collapse = "\n")
-  }
+#+ functions
+pull_pub_fields <- function(y) {
+  if (length(y) == 1) y <- y[[1]]
+  `%||%` <- function(x, y) if (is.null(x)) y else x
+  data_frame(
+    label = y$label,
+    github_issue = y$github_issue,
+    doi = y$doi %||% NA_character_,
+    pubmed_id = y$pubmed_id %||% NA_character_
+  )
 }
 
-#+ get-bibtex, include=FALSE
-pubs <- pubs %>%
+
+get_bibtex <- function(source = c("doi", "pubmed_id"), ref) {
+  switch(
+    match.arg(source),
+    "doi" = rcrossref::cr_cn(ref, format = "bibtex", raw = TRUE),
+    "pubmed_id" = RefManageR::ReadPubMed(ref) %>%
+      RefManageR::toBiblatex() %>%
+      paste(collapse = "\n")
+  )
+}
+
+#+ get-bibtex
+data_list <- map_dfr(metadata, pull_pub_fields)
+
+pubs <-
+  data_list %>%
+  gather(source, ref, doi:pubmed_id) %>%
+  distinct() %>%
+  arrange(github_issue, source) %>%
+  filter(!is.na(ref)) %>%
   mutate(
-    bib = map2_chr(doi, pubmed_id, get_bibtex)
+    bib = map2_chr(source, ref, get_bibtex)
   ) %>%
-  mutate(pubmed_id = map_chr(pubmed_id, ~paste(., collapse = ", "))) %>%
   write_csv(here::here("metadata", "references.csv"))
 
-#+ write-bibtex, include=FALSE
+#+ write-bibtex
 pubs %>%
   filter(!is.na(bib)) %>%
   pull(bib) %>%
   write_lines(here::here("metadata", "references.bib"))
 
-#+ pubs-table, echo=FALSE
+#+ pubs-table, include=TRUE
 pubmed_link <- function(x) {
+  if (length(x) > 1) return(map_chr(x, pubmed_link))
   if (is.na(x) | x == "" | x == "NA") return("")
-  x <- str_split(x, ", ")[[1]]
-  x <- glue::glue("[{x}](https://www.ncbi.nlm.nih.gov/pubmed/{x})")
-  paste(x, collapse = ", ")
+  glue::glue("[{x}](https://www.ncbi.nlm.nih.gov/pubmed/{x})")
 }
 
 doi_link <- function(doi) {
+  if (length(doi) > 1) return(map_chr(doi, doi_link))
   if (is.na(doi) | doi == "") return("")
   glue::glue("[{doi}](https://doi.org/{doi})")
+}
+
+collapse <- function(x, with = ", ") {
+  x <- unique(x)
+  paste(x[!is.na(x)], collapse = with)
 }
 
 pubs %>%
@@ -75,10 +86,25 @@ pubs %>%
     citekey = str_extract_all(bib, "@\\w+\\{[^, ]+"),
     citekey = map(citekey, ~ str_remove_all(., "@\\w+\\{")),
     citekey = map_chr(citekey, ~ paste0(., collapse = ", ")),
-    doi = map_chr(doi, doi_link),
-    pubmed_id = map_chr(pubmed_id, pubmed_link)
+    ref = ifelse(source == "pubmed_id", pubmed_link(ref), doi_link(ref))
   ) %>%
-  select(label, doi, pubmed_id, citekey) %>%
+  group_by(label, github_issue, source) %>%
+  summarize(
+    ref = collapse(ref),
+    citekey = collapse(citekey)
+  ) %>%
+  spread(source, ref) %>%
+  group_by(label, github_issue) %>%
+  summarize(
+    doi = collapse(doi),
+    pubmed_id = collapse(pubmed_id),
+    citekey = collapse(citekey)
+  ) %>%
+  left_join(data_list[, c("label", "github_issue")], ., by = c("label", "github_issue")) %>%
+  mutate(label = glue::glue("[{label}]({github_issue})")) %>%
+  arrange(desc(doi), desc(pubmed_id), github_issue) %>%
+  select(-starts_with("github_issue")) %>%
+  distinct() %>%
   mutate_all(~ ifelse(is.na(.), "", .)) %>%
   mutate_all(~ ifelse(. == "NA", "", .)) %>%
   rename(Label = label,

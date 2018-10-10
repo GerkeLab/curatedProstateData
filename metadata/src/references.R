@@ -43,6 +43,12 @@ get_bibtex <- function(source = c("doi", "pubmed_id"), ref) {
   )
 }
 
+extract_citekey <- function(bibtex) {
+  str_extract_all(bibtex, "@\\w+\\{[^, ]+") %>%
+    map(~ str_remove_all(., "@\\w+\\{")) %>%
+    map_chr(~ paste0(., collapse = ", "))
+}
+
 #+ get-bibtex
 data_list <- map_dfr(metadata, pull_pub_fields)
 
@@ -60,6 +66,9 @@ pubs <-
 #+ write-bibtex
 pubs %>%
   filter(!is.na(bib)) %>%
+  select(bib) %>%
+  mutate(citekey = extract_citekey(bib)) %>%
+  filter(!duplicated(citekey)) %>%
   pull(bib) %>%
   write_lines(here::here("metadata", "references.bib"))
 
@@ -83,9 +92,7 @@ collapse <- function(x, with = ", ") {
 
 pubs %>%
   mutate(
-    citekey = str_extract_all(bib, "@\\w+\\{[^, ]+"),
-    citekey = map(citekey, ~ str_remove_all(., "@\\w+\\{")),
-    citekey = map_chr(citekey, ~ paste0(., collapse = ", ")),
+    citekey = extract_citekey(bib),
     ref = ifelse(source == "pubmed_id", pubmed_link(ref), doi_link(ref))
   ) %>%
   group_by(label, github_issue, source) %>%

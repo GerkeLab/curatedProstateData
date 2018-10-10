@@ -1,7 +1,7 @@
 #' ---
 #' title: Dataset References
-#' author: Garrick Aden-Buie
-#' date: '`r strftime(Sys.time(), "on %F at %T")`'
+#' author: "<blockquote><strong>Updated:</strong>"
+#' date: '`r strftime(Sys.time(), "%F at %T</blockquote>")`'
 #' output: github_document
 #' ---
 
